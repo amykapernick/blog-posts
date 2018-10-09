@@ -1,7 +1,7 @@
 ---
 title: Being a More Sustainable You
-publishDate: 09/10/2018
-updateDate: 09/10/2018
+publishDate: '2018-10-10'
+updateDate: '2018-10-10'
 description: >-
   During the past couple of years, I started focusing more on myself and when I
   burnt out last year I decided to put myself first. Since then I've taken on so
