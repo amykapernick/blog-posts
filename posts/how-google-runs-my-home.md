@@ -1,10 +1,11 @@
 ---
 title: How Google runs my Home
-publishDate: 2018-07-26
-updateDate: 2018-07-26
+publishDate: 2018-07-26T00:00:00.000Z
+updateDate: 2018-07-26T00:00:00.000Z
 description: >-
   I have an insanely busy life, and my Google Home(s) help to take care of the
   things that I shouldn't really have to worry about (or really don't want to
+mainBlog: Amy Goes To Perth
 tags:
   - Google Home
   - Smart Home
