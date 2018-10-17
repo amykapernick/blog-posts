@@ -1,11 +1,12 @@
 ---
 title: 2017 - A Retrospective
-publishDate: 2018-01-06
-updateDate: 2018-01-06
+publishDate: 2018-01-06T00:00:00.000Z
+updateDate: 2018-01-06T00:00:00.000Z
 description: >-
   What a year it's been! I look back on what's happened to me in the last 12
   months, what I've done, what changes I've experienced and how I feel coming
   out of it all
+mainBlog: Amy Goes To Perth
 tags:
   - Amy Goes to Perth
   - New Year
