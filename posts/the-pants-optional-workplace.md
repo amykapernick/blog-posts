@@ -1,10 +1,11 @@
 ---
 title: The Pants-Optional Workplace
-publishDate: 2017-11-15
-updateDate: 2017-11-15
+publishDate: 2017-11-15T00:00:00.000Z
+updateDate: 2017-11-15T00:00:00.000Z
 description: >-
   What's it really like to work from home rather than going into an office every
   day? And what do you need to make sure you do to stay sane day after day
+mainBlog: The Freelance Guide
 tags:
   - Amy Goes to Perth
   - The Freelance Guide
