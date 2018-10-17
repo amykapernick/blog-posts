@@ -1,11 +1,12 @@
 ---
 title: A Cultural Agenda
-publishDate: 2017-08-28
-updateDate: 2017-08-28
+publishDate: 2017-08-28T00:00:00.000Z
+updateDate: 2017-08-28T00:00:00.000Z
 description: >-
   Recap of all the shows I saw in 2017 when I decided to go for it and buy a
   heap of tickets to shows rather than saying I was going to and not getting
   around to it.
+mainBlog: Amy Goes To Perth
 tags:
   - Amy Goes to Perth
   - Culture
