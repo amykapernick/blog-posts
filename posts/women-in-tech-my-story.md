@@ -1,12 +1,12 @@
 ---
 title: Women in Tech - My Story
-publishDate: 2018-03-08
-updateDate: 2018-03-08
+publishDate: 2018-03-08T00:00:00.000Z
+updateDate: 2018-03-08T00:00:00.000Z
 description: I share my experiences being a woman in tech and how I got to where I am today
+mainBlog: Amy Goes To Perth
 tags:
-  - Amy Goes to Perth
-  - AimHigher
   - Women in Tech
+  - Diversity
 featuredImage: >-
   /img/blog/35adefb0628ee616c281438acbe1a38f032daa40_1_-_-8heu4onebgwjkfkeqoa.jpg
 ---
