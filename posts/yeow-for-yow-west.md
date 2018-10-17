@@ -1,10 +1,11 @@
 ---
 title: YEOW! for YOW West
-publishDate: 2017-05-09
-updateDate: 2017-05-09
+publishDate: 2017-05-09T00:00:00.000Z
+updateDate: 2017-05-09T00:00:00.000Z
 description: >-
   Recap of my experiences at the YOW! West Conference in Perth in 2017 and some
   of the speakers I heard.
+mainBlog: Amy Goes To Perth
 tags:
   - Amy Goes to Perth
   - The Freelance Guide
