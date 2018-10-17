@@ -1,10 +1,11 @@
 ---
 title: The Comedy of Errors
-publishDate: 2018-04-19
-updateDate: 2018-04-19
+publishDate: 2018-04-19T00:00:00.000Z
+updateDate: 2018-04-19T00:00:00.000Z
 description: >-
   My experience dealing with Microsoft support, as a Shakespearean comedy
   (because not everyone died)
+mainBlog: Amy Goes To Perth
 tags:
   - Amy Goes to Perth
 featuredImage: >-
