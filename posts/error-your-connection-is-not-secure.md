@@ -1,10 +1,11 @@
 ---
 title: Error! Your connection is not secure
-publishDate: 2017-09-18
-updateDate: 2017-09-18
+publishDate: 2017-09-18T00:00:00.000Z
+updateDate: 2017-09-18T00:00:00.000Z
 description: >-
   Confused about what HTTPS means, whether you're being hacked and why you need
   to care about it? Let me explain some of this for you
+mainBlog: AimHigher
 tags:
   - Amy Goes to Perth
   - The Freelance Guide
