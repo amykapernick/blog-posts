@@ -1,4 +1,5 @@
 ---
+templateKey: 'blog-post'
 title: The Pants-Optional Workplace
 publishDate: 2017-11-15T00:00:00.000Z
 updateDate: 2017-11-15T00:00:00.000Z
