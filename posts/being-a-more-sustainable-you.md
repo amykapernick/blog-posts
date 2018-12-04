@@ -1,4 +1,5 @@
 ---
+templateKey: 'blog-post'
 title: Being a More Sustainable You
 publishDate: '2018-10-10'
 updateDate: '2018-10-10'

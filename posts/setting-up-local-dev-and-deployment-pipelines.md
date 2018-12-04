@@ -1,4 +1,5 @@
 ---
+templateKey: 'blog-post'
 title: Setting up Local Dev and Deployment Pipelines
 publishDate: 2017-09-04
 updateDate: 2017-09-04

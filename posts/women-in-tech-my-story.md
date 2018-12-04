@@ -1,4 +1,5 @@
 ---
+templateKey: 'blog-post'
 title: Women in Tech - My Story
 publishDate: 2018-03-08
 updateDate: 2018-03-08

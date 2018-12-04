@@ -1,4 +1,5 @@
 ---
+templateKey: 'blog-post'
 title: 'Never gonna give you up, never gonna let you down'
 publishDate: 2017-07-18
 updateDate: 2017-07-18

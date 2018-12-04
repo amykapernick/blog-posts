@@ -1,4 +1,5 @@
 ---
+templateKey: 'blog-post'
 title: 'The Need for PageSpeed: A Hot Pursuit'
 publishDate: 2017-11-01
 updateDate: 2017-11-01

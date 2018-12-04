@@ -1,4 +1,5 @@
 ---
+templateKey: 'blog-post'
 title: Farewell to CSSConf Au
 publishDate: 2018-04-16
 updateDate: 2018-04-16

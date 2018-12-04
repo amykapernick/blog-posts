@@ -1,4 +1,5 @@
 ---
+templateKey: 'blog-post'
 title: DDD Perth 2018
 publishDate: 2018-09-05
 updateDate: 2018-09-05

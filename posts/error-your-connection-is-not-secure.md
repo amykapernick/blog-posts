@@ -1,4 +1,5 @@
 ---
+templateKey: 'blog-post'
 title: Error! Your connection is not secure
 publishDate: 2017-09-18
 updateDate: 2017-09-18

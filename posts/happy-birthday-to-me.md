@@ -1,4 +1,5 @@
 ---
+templateKey: 'blog-post'
 title: Happy Birthday to Me?
 publishDate: 2017-02-27T16:00:00.000Z
 updateDate: 2017-02-27T16:00:00.000Z

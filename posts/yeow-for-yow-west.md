@@ -1,4 +1,5 @@
 ---
+templateKey: 'blog-post'
 title: YEOW! for YOW West
 publishDate: 2017-05-09
 updateDate: 2017-05-09

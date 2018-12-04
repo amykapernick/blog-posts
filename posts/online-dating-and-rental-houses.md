@@ -1,4 +1,5 @@
 ---
+templateKey: 'blog-post'
 title: Online Dating and Rental Houses
 publishDate: 2017-02-25
 updateDate: 2017-02-25

@@ -1,4 +1,5 @@
 ---
+templateKey: 'blog-post'
 title: 'Developers, Developers, Developers'
 publishDate: 2017-09-19
 updateDate: 2017-09-19

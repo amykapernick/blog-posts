@@ -1,4 +1,5 @@
 ---
+templateKey: 'blog-post'
 title: How Google runs my Home
 publishDate: 2018-07-26
 updateDate: 2018-07-26

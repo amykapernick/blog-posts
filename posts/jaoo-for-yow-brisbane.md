@@ -1,4 +1,5 @@
 ---
+templateKey: 'blog-post'
 title: JAOO! for YOW! Brisbane!
 publishDate: 2018-02-12
 updateDate: 2018-02-12

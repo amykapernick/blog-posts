@@ -1,4 +1,5 @@
 ---
+templateKey: 'blog-post'
 title: This is your first post
 publishDate: 2017-02-22
 updateDate: 2017-02-22
