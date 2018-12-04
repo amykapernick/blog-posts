@@ -1,8 +1,8 @@
 ---
 templateKey: 'blog-post'
 title: '#Frocktober'
-publishDate: 2017-10-25
-updateDate: 2017-10-25
+publishDate: 2017-10-25T00:00:00.000Z
+updateDate: 2017-10-25T00:00:00.000Z
 description: Summary of my experience participating in Frocktober in 2017
 tags:
   - Amy Goes to Perth

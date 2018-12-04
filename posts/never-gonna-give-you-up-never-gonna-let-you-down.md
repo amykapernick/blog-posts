@@ -1,16 +1,18 @@
 ---
 templateKey: 'blog-post'
 title: 'Never gonna give you up, never gonna let you down'
-publishDate: 2017-07-18
-updateDate: 2017-07-18
+publishDate: 2017-07-18T00:00:00.000Z
+updateDate: 2017-07-18T00:00:00.000Z
 description: >-
   Sometimes life gets really tough, and sometimes it feels like everything is
   happening to you all at once, so what happens when you don't like to let
   people down and don't take the time out?
+mainBlog: Amy Goes To Perth
 tags:
   - Amy Goes to Perth
   - Mental Health
-featuredImage: /img/blog/aa0866f4266d409a70bc450e2ff2119b208f698d_1_ql5l9mqz4da8wdevacw9pq.jpg
+featuredImage: >-
+  /img/blog/aa0866f4266d409a70bc450e2ff2119b208f698d_1_ql5l9mqz4da8wdevacw9pq.jpg
 ---
 Never gonna run around and desert you…
 

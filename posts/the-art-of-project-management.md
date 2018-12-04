@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: The Art of Project Management
-publishDate: 2017-10-29
-updateDate: 2017-10-29
+publishDate: 2017-10-29T00:00:00.000Z
+updateDate: 2017-10-29T00:00:00.000Z
 description: 'Analysis of various project management tools, and their pros and cons'
+mainBlog: The Freelance Guide
 tags:
   - Amy Goes to Perth
   - Project Management

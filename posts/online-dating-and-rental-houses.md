@@ -1,12 +1,13 @@
 ---
 templateKey: 'blog-post'
 title: Online Dating and Rental Houses
-publishDate: 2017-02-25
-updateDate: 2017-02-25
+publishDate: 2017-02-25T00:00:00.000Z
+updateDate: 2017-02-25T00:00:00.000Z
 description: >-
   Both online dating and rental houses are fraught with frustration and
   disappointment, and it's even worse when you're going through both at the same
   time.
+mainBlog: Amy Goes To Perth
 tags:
   - Amy Goes to Perth
   - Online Dating

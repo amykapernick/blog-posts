@@ -9,6 +9,7 @@ description: >-
   many new responsibilities, adventures and stressors, but since making the
   decision to put myself first I've been in a much better place mentally and
   emotionally.
+mainBlog: Amy Goes To Perth
 tags:
   - Amy Goes to Perth
   - The Freelance Guide

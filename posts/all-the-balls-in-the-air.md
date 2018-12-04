@@ -1,15 +1,17 @@
 ---
 templateKey: 'blog-post'
 title: All the Balls in the Air
-publishDate: 2017-04-02
-updateDate: 2017-04-02
+publishDate: 2017-04-02T00:00:00.000Z
+updateDate: 2017-04-02T00:00:00.000Z
 description: >-
   Discussion of the tools that I use to keep track of everything, both task
   management and calendars
+mainBlog: The Freelance Guide
 tags:
   - Amy Goes to Perth
   - The Freelance Guide
-featuredImage: /img/blog/21dbeebf5dce6f22ad559ef5f72c1c40288f7984_1_jbh3upwpmskrznxgczihoa.jpg
+featuredImage: >-
+  /img/blog/21dbeebf5dce6f22ad559ef5f72c1c40288f7984_1_jbh3upwpmskrznxgczihoa.jpg
 ---
 These days your’re expected to manage several different aspects of life and at the same time keep on top of it all. Now the first thing you need to remember is to know your limits, it’s all too easy to take on too much and before too long you end up crashing and burning. I’m not going to cover that now because that’s an entirely different topic, but make sure you know where the line is, because that’s not something you want to cross.
 

@@ -1,11 +1,12 @@
 ---
 templateKey: 'blog-post'
 title: 'The Need for PageSpeed: A Hot Pursuit'
-publishDate: 2017-11-01
-updateDate: 2017-11-01
+publishDate: 2017-11-01T00:00:00.000Z
+updateDate: 2017-11-01T00:00:00.000Z
 description: >-
   What does Google Pagespeed actually mean? And what do you need to do about
   your score? Is it all just a scam? Probably
+mainBlog: AimHigher
 tags:
   - AimHigher
   - The Freelance Guide

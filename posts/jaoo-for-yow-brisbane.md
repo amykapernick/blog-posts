@@ -1,15 +1,15 @@
 ---
 templateKey: 'blog-post'
 title: JAOO! for YOW! Brisbane!
-publishDate: 2018-02-12
-updateDate: 2018-02-12
+publishDate: 2018-02-12T00:00:00.000Z
+updateDate: 2018-02-12T00:00:00.000Z
 description: >-
   Recap of my time at YOW! Brisbane Conference in 2017, the speakers I saw and
   the experiences I had
+mainBlog: Amy Goes To Perth
 tags:
   - Amy Goes to Perth
   - The Freelance Guide
-  - AimHigher
   - Conference
   - YOW!
 featuredImage: >-

@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: DDD Perth 2018
-publishDate: 2018-09-05
-updateDate: 2018-09-05
+publishDate: 2018-09-05T00:00:00.000Z
+updateDate: 2018-09-05T00:00:00.000Z
 description: A recap of DDD Perth 2018 and the talks that I saw there
+mainBlog: Amy Goes To Perth
 tags:
   - Amy Goes to Perth
   - The Freelance Guide

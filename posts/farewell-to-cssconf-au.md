@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: Farewell to CSSConf Au
-publishDate: 2018-04-16
-updateDate: 2018-04-16
+publishDate: 2018-04-16T00:00:00.000Z
+updateDate: 2018-04-16T00:00:00.000Z
 description: Recap of my time at the final CSSConf Au in Melbourne in 2018
+mainBlog: Amy Goes To Perth
 tags:
   - Amy Goes to Perth
   - The Freelance Guide

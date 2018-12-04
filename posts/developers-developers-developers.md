@@ -1,9 +1,10 @@
 ---
 templateKey: 'blog-post'
 title: 'Developers, Developers, Developers'
-publishDate: 2017-09-19
-updateDate: 2017-09-19
+publishDate: 2017-09-19T00:00:00.000Z
+updateDate: 2017-09-19T00:00:00.000Z
 description: Recap of the 2017 DDD Perth Conference and the speakers I saw
+mainBlog: Amy Goes To Perth
 tags:
   - The Freelance Guide
   - Conference

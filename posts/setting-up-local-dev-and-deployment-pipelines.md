@@ -1,11 +1,12 @@
 ---
 templateKey: 'blog-post'
 title: Setting up Local Dev and Deployment Pipelines
-publishDate: 2017-09-04
-updateDate: 2017-09-04
+publishDate: 2017-09-04T00:00:00.000Z
+updateDate: 2017-09-04T00:00:00.000Z
 description: >-
   How-to article on setting up a local development environment and continuous
   deployment pipeline for a Wordpress website (using free tools of course)
+mainBlog: The Freelance Guide
 tags:
   - The Freelance Guide
   - Continuous Deployment
