@@ -1,5 +1,5 @@
 ---
-title: AimHigher Web Design - An Origin Story
+title: An Origin Story
 publishDate: '2019-01-07'
 updateDate: '2019-01-07'
 description: >-
