@@ -5,6 +5,7 @@ updateDate: '2019-01-07'
 description: >-
   Celebrating 5 years since I started AimHigher Web Design, I reflect on what
   drove me to start the business
+mainBlog: AimHigher
 tags:
   - AimHigher
 featuredImage: /img/blog/homepage.png

@@ -9,6 +9,7 @@ description: >-
   routines, I could do whatever I wanted! But it didn't take me long before I
   found I was a little lost, and not really getting anything done. Maybe
   routines aren't necessarily a bad thing...
+mainBlog: The Freelance Guide
 tags:
   - The Freelance Guide
   - Amy Goes to Perth

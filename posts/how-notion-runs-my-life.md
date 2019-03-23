@@ -3,6 +3,7 @@ title: How Notion runs my life
 publishDate: '2019-03-23'
 updateDate: '2019-03-23'
 description: Talking about how I use Notion to run my life
+mainBlog: The Freelance Guide
 tags:
   - Freelance Guide
   - Productivity
