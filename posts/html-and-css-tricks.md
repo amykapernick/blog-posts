@@ -12,9 +12,9 @@ featuredImage: /img/blog/screenshot_2019-07-22-html-and-css-only-testimonial-car
 ---
 So recently I shared a HTML and CSS only testimonial carousel, and was accused of witchcraft 🤣
 
-![](/img/blog/giphy.gif)
+![](https://media.giphy.com/media/enzPQyHVWMfx6/giphy.gif)
 
-Despite the fact that this absolutely made my day (and resulted in me having to go home that night and re-watch _The Holy Grail_), I decided to compile a few of my little JS-free tricks.
+Despite the fact that this absolutely made my day (and resulted in me having to go home that night and re-watch *The Holy Grail*), I decided to compile a few of my little JS-free tricks.
 
 - - -
 
