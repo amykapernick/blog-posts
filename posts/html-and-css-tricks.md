@@ -8,7 +8,7 @@ mainBlog: The Freelance Guide
 tags:
   - CSS
   - HTML
-featuredImage: /img/blog/giphy.gif
+featuredImage: /img/blog/screenshot_2019-07-22-html-and-css-only-testimonial-carousel.png
 ---
 So recently I shared a HTML and CSS only testimonial carousel, and was accused of witchcraft 🤣
 
