@@ -104,7 +104,7 @@ Once you’ve created your account, setup a project linked to your GitHub accoun
 
 When prompted, select to run node.js commands and add to those to install any gulp modules you’re using. It should end up looking similar to this:
 
-```bash
+```shell
 # By default we use the Node.js version set in your package.json or the latest
 # version from the 0.10 release
 #
@@ -122,7 +122,7 @@ Navigate to **Project Settings** -> **Deployment** and select to setup a new dep
 
 For this setup, you will need to select **Custom Script** but if your deployment is different, you can choose another option. You can also choose to run the build in multiple locations if you like. Again, add anything you’d like to run to the scripts but I use the following:
 
-```bash
+```shell
 gulp replaceLocalDev
 gulp sassy
 rm -rf node_modules

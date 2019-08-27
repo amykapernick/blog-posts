@@ -1,8 +1,8 @@
 ---
 draft: true
 title: Template
-publishDate: 2019-08-28T00:00:00.000Z
-updateDate: 2019-08-28T00:00:00.000Z
+publishDate: 2019-09-28T00:00:00.000Z
+updateDate: 2019-09-28T00:00:00.000Z
 description: >-
   Recap of all the shows I saw in 2017 when I decided to go for it and buy a
   heap of tickets to shows rather than saying I was going to and not getting
@@ -12,8 +12,7 @@ tags:
   - Amy Goes to Perth
   - AimHigher
   - Freelance Guide
-featuredImage: >-
-  /img/rottnest-lighthouse.jpg
+featuredImage: /img/blog/screenshot_2019-07-22-html-and-css-only-testimonial-carousel.png
 ---
 
 ## Subheading
