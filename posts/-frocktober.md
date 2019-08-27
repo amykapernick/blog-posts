@@ -1,5 +1,4 @@
 ---
-templateKey: 'blog-post'
 title: '#Frocktober'
 publishDate: 2017-10-25T00:00:00.000Z
 updateDate: 2017-10-25T00:00:00.000Z

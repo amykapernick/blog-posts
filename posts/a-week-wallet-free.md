@@ -1,5 +1,4 @@
 ---
-templateKey: 'blog-post'
 title: A Week Wallet-Free
 publishDate: 2017-03-26T16:00:00.000Z
 updateDate: 2017-03-26T16:00:00.000Z

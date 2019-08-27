@@ -1,5 +1,4 @@
 ---
-templateKey: 'blog-post'
 title: A Cultural Agenda
 publishDate: 2017-08-28T00:00:00.000Z
 updateDate: 2017-08-28T00:00:00.000Z

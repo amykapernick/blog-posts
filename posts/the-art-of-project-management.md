@@ -1,5 +1,4 @@
 ---
-templateKey: 'blog-post'
 title: The Art of Project Management
 publishDate: 2017-10-29T00:00:00.000Z
 updateDate: 2017-10-29T00:00:00.000Z

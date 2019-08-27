@@ -1,5 +1,4 @@
 ---
-templateKey: 'blog-post'
 title: The Comedy of Errors
 publishDate: 2018-04-19T00:00:00.000Z
 updateDate: 2018-04-19T00:00:00.000Z

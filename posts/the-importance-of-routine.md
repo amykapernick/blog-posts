@@ -1,5 +1,4 @@
 ---
-templateKey: 'blog-post'
 title: The Importance of Routine
 publishDate: '2018-10-29'
 updateDate: '2018-10-29'

@@ -1,5 +1,4 @@
 ---
-templateKey: 'blog-post'
 title: All the Balls in the Air
 publishDate: 2017-04-02T00:00:00.000Z
 updateDate: 2017-04-02T00:00:00.000Z

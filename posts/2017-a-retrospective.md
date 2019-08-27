@@ -1,5 +1,4 @@
 ---
-templateKey: 'blog-post'
 title: 2017 - A Retrospective
 publishDate: 2018-01-06T00:00:00.000Z
 updateDate: 2018-01-06T00:00:00.000Z
