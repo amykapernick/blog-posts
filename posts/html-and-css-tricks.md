@@ -1,8 +1,8 @@
 ---
 templateKey: blog-post
 title: HTML and CSS Tricks
-publishDate: '2019-07-22'
-updateDate: '2019-07-22'
+publishDate: "2019-07-22"
+updateDate: "2019-07-22"
 description: Here are a few tricks I use for HTML and CSS only UI elements
 mainBlog: The Freelance Guide
 tags:
@@ -10,13 +10,14 @@ tags:
   - HTML
 featuredImage: /img/blog/screenshot_2019-07-22-html-and-css-only-testimonial-carousel.png
 ---
+
 So recently I shared a HTML and CSS only testimonial carousel, and was accused of witchcraft 🤣
 
 ![](https://media.giphy.com/media/enzPQyHVWMfx6/giphy.gif)
 
-Despite the fact that this absolutely made my day (and resulted in me having to go home that night and re-watch *The Holy Grail*), I decided to compile a few of my little JS-free tricks.
+Despite the fact that this absolutely made my day (and resulted in me having to go home that night and re-watch _The Holy Grail_), I decided to compile a few of my little JS-free tricks.
 
-- - -
+---
 
 Now some of these can be a little janky, and not quite as smooth as when using JS or an external plugin or library, but they're also much better for performance and don't rely on loading heavy external resources.
 
@@ -30,11 +31,11 @@ For this I'm using radio buttons and the next sibling selector (`element + sibli
 
 For the HTML, each testimonial has an `input`, `label` and `blockquote` element, although you could omit the `label` part and use vanilla browser-supplied radio button styling.
 
-```
+```html
 <input type="radio" id="quote-1" name="testimonials" />
 <label for="quote-1">Testimonial 1</label>
 <blockquote>
-	CSS and HTML are awesome, you can do so many amazing things with them.
+  CSS and HTML are awesome, you can do so many amazing things with them.
 </blockquote>
 ```
 
@@ -46,13 +47,13 @@ The `blockquote` is then the testimonial we're displaying. You can put anything 
 
 Most of the CSS is to make things look pretty, but this is the bit for the functionality:
 
-```
+```css
 input[type="radio"]:checked + label + blockquote {
-	display: block;
+  display: block;
 }
-		
+
 blockquote {
-	display: none;
+  display: none;
 }
 ```
 
@@ -62,7 +63,7 @@ That's all there is to it!
 
 Flexbox then allowed me to re-order it visually to keep the radio buttons at the bottom.
 
-```
+```css
 body {
 	display: flex;
 	flex-wrap: wrap
@@ -82,35 +83,35 @@ Then I made the radio buttons nice and pretty.
 
 Setting the font size and colour to make the label invisible makes the label still accessible to screen readers but hides it visually.
 
-Then I set the label to be a circle with a border, and the `:after` pseudo element to be the middle of the selected radio  button.
+Then I set the label to be a circle with a border, and the `:after` pseudo element to be the middle of the selected radio button.
 
-```
+```scss
 input {
-	display: none;
+  display: none;
 }
 
 label {
-	border: 1px solid #5b5b5b;
-	border-radius: 50%;
-	color: transparent;
-	font-size: 0px;
-	height: 20px;
-	width: 20px;
-	position: relative;
-	
-	&:after {
-		background: #16a6b1;
-		border-radius: 50%;
-		position: absolute;
-			top: 2px;
-			right: 2px;
-			bottom: 2px;
-			left: 2px;
-	}
+  border: 1px solid #5b5b5b;
+  border-radius: 50%;
+  color: transparent;
+  font-size: 0px;
+  height: 20px;
+  width: 20px;
+  position: relative;
+
+  &:after {
+    background: #16a6b1;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    left: 2px;
+  }
 }
 
 input[type="radio"]:checked + label:after {
-		content: '';
+  content: "";
 }
 ```
 

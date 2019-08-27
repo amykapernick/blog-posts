@@ -13,17 +13,18 @@ tags:
 featuredImage: >-
   /img/blog/2e2caf5740aabb6fe6334d2aef4cab7acd28b408_rawpixel-com-579231-unsplash.jpg
 ---
+
 Since I discovered git, everything I do gets recorded on GitHub (it’s one of the most amazing things I’ve learnt in web). I’ve also started using XAMPP so that I can develop on my local machine. But while copying files from my local development onto my server I thought surely there must be an easier way to do this. Unfortunately there didn’t seem to be a lot of information about simply setting this up with FTP so I’m documenting it to make it easier for the next person.
 
 These instructions are specific to a WordPress build and using cPanel but can be adjusted to different situations.
 
 To set this up you’ll need a few things:
 
-* Install [XAMPP](https://www.apachefriends.org/index.html) (or [MAMP](https://www.mamp.info/en/) on a Mac) for local development
-* [Github](https://github.com/) Account (can also use GitLab or Bitbucket)
-* Latest [WordPress](https://en-au.wordpress.org/) version
-* [Git client](https://git-for-windows.github.io/) (for Windows computers, Mac and Linux can use Terminal). You could also use [Ubuntu Bash](https://msdn.microsoft.com/en-au/commandline/wsl/install_guide) if you have the lastest Windows 10
-* Access to your hosting through cPanel (or similar)
+- Install [XAMPP](https://www.apachefriends.org/index.html) (or [MAMP](https://www.mamp.info/en/) on a Mac) for local development
+- [Github](https://github.com/) Account (can also use GitLab or Bitbucket)
+- Latest [WordPress](https://en-au.wordpress.org/) version
+- [Git client](https://git-for-windows.github.io/) (for Windows computers, Mac and Linux can use Terminal). You could also use [Ubuntu Bash](https://msdn.microsoft.com/en-au/commandline/wsl/install_guide) if you have the lastest Windows 10
+- Access to your hosting through cPanel (or similar)
 
 ## Install WordPress
 
@@ -37,56 +38,59 @@ Technically you could use the whole WordPress folder as your repository but I ju
 
 I use Gulp to not only compile my Sass (definitely one of the most amazing things I’ve learnt) but also to create source maps and change the file paths when changing from local to online. If you’re starting from scratch, you’ll have to install the following:
 
-* [Node.js](https://nodejs.org/en/)
-* [Gulp](https://www.npmjs.com/package/gulp-install) (via Git Bash, Terminal or similar)
-* [Gulp Sass](https://www.npmjs.com/package/gulp-sass)
-* [Gulp Replace](https://www.npmjs.com/package/gulp-replace)
-* [Gulp String Replace](https://www.npmjs.com/package/gulp-string-replace)
-* [Gulp Sourcemaps](https://www.npmjs.com/package/gulp-sourcemaps)
+- [Node.js](https://nodejs.org/en/)
+- [Gulp](https://www.npmjs.com/package/gulp-install) (via Git Bash, Terminal or similar)
+- [Gulp Sass](https://www.npmjs.com/package/gulp-sass)
+- [Gulp Replace](https://www.npmjs.com/package/gulp-replace)
+- [Gulp String Replace](https://www.npmjs.com/package/gulp-string-replace)
+- [Gulp Sourcemaps](https://www.npmjs.com/package/gulp-sourcemaps)
 
 These are all modules needed in my Gulpfile but feel free to use different ones or add your own, just remember to adjust as necessary.
 
 ```javascript
 //Variables
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var replace = require('gulp-replace');
-var replaceString = require('gulp-string-replace');
-var sourcemaps = require('gulp-sourcemaps');
+var gulp = require("gulp");
+var sass = require("gulp-sass");
+var replace = require("gulp-replace");
+var replaceString = require("gulp-string-replace");
+var sourcemaps = require("gulp-sourcemaps");
 
 //File Paths
-var sassFiles = 'source/scss/**/*.scss',
-    mainSassFile = 'source/scss/main.scss',
-    cssFiles = 'assets/css/',
-    localHostPath = '/wordpress/wp-content/',
-    remotePath = '/wp-content/',
-    pathFiles ='*'
+var sassFiles = "source/scss/**/*.scss",
+  mainSassFile = "source/scss/main.scss",
+  cssFiles = "assets/css/",
+  localHostPath = "/wordpress/wp-content/",
+  remotePath = "/wp-content/",
+  pathFiles = "*";
 
 //Compile main sass into css
-gulp.task('sassy', function(){
-  gulp.src(mainSassFile)
+gulp.task("sassy", function() {
+  gulp
+    .src(mainSassFile)
     .pipe(sourcemaps.init())
-      .pipe(sass().on('error', sass.logError)) //Using gulp-sass
-    .pipe(sourcemaps.write('../maps'))
-      .pipe(gulp.dest(cssFiles))
+    .pipe(sass().on("error", sass.logError)) //Using gulp-sass
+    .pipe(sourcemaps.write("../maps"))
+    .pipe(gulp.dest(cssFiles));
 });
 
 //Watch for changes in sass files and running sass compile
-gulp.task('watch', function() {
-  gulp.watch(sassFiles, ['sassy']);
+gulp.task("watch", function() {
+  gulp.watch(sassFiles, ["sassy"]);
 });
 
 //Replace file paths for local host with remote server
-gulp.task('replaceLocalDev', function(){
-  gulp.src([pathFiles, '!gulpfile.js'])
+gulp.task("replaceLocalDev", function() {
+  gulp
+    .src([pathFiles, "!gulpfile.js"])
     .pipe(replace(localHostPath, remotePath))
-    .pipe(gulp.dest('./'));
+    .pipe(gulp.dest("./"));
 
-  gulp.src([sassFiles, '!gulpfile.js'])
+  gulp
+    .src([sassFiles, "!gulpfile.js"])
     .pipe(replaceString(localHostPath, remotePath))
-    .pipe(gulp.dest('source/scss/'));
+    .pipe(gulp.dest("source/scss/"));
 
-  gulp.start('sassy');
+  gulp.start("sassy");
 });
 ```
 
@@ -94,23 +98,23 @@ Make sure that you add the node_modules folder to your gitignore file otherwise 
 
 ## Setup Codeship
 
-Codeship allows users with free accounts to have unlimited projects setup, run 1 build at a time and have 100 builds each month. For most freelancers or small businesses this should be fine otherwise plans start at $49/month and include unlimited builds.
+Codeship allows users with free accounts to have unlimited projects setup, run 1 build at a time and have 100 builds each month. For most freelancers or small businesses this should be fine otherwise plans start at \$49/month and include unlimited builds.
 
 Once you’ve created your account, setup a project linked to your GitHub account and follow the instructions to link it to your desired repository.
 
 When prompted, select to run node.js commands and add to those to install any gulp modules you’re using. It should end up looking similar to this:
 
-```
+```bash
 # By default we use the Node.js version set in your package.json or the latest
 # version from the 0.10 release
-# 
+#
 # You can use nvm to install any Node.js (or io.js) version you require.
 # nvm install 4.0
-nvm install 0.10 
-npm install 
-npm install --save gulp-install 
-npm install gulp-sass --save-dev 
-npm install --save-dev gulp-replace 
+nvm install 0.10
+npm install
+npm install --save gulp-install
+npm install gulp-sass --save-dev
+npm install --save-dev gulp-replace
 npm install gulp-string-replace --save-dev
 ```
 
@@ -118,10 +122,10 @@ Navigate to **Project Settings** -> **Deployment** and select to setup a new dep
 
 For this setup, you will need to select **Custom Script** but if your deployment is different, you can choose another option. You can also choose to run the build in multiple locations if you like. Again, add anything you’d like to run to the scripts but I use the following:
 
-```
-gulp replaceLocalDev 
-gulp sassy 
-rm -rf node_modules 
+```bash
+gulp replaceLocalDev
+gulp sassy
+rm -rf node_modules
 lftp -c "open -u $FTP_USER,$FTP_PASSWORD {insertFTPhosthere}; set ssl:verify-certificate no; mirror -R ~/clone/ /wp-content/themes/wordpresstheme"
 ```
 

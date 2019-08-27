@@ -10,6 +10,7 @@ tags:
   - Conference
 featuredImage: /img/blog/bc13f1f12f0d93dde12c8543cf8c7f15e4dbc8d5_img_20180320_100538.jpg
 ---
+
 Last month I got the awesome opportunity to go to the final CSSConf AU in Melbourne and see a range of amazing speakers from all over the world (including one of my good friends from Perth). This was the first time I'd been to a CSSConf and I'm so glad I was able to make it before they finished up. The entire experience from start to finish was amazing, inclusive, inspiring, encouraging and came close to being the best conference I've been to (Mixin still ranks as my favourite conference. Although I didn't make it to JSConf (I did get to Decompress though), my week was packed with inspiring talks, meeting amazing people and thoroughly enjoying the time I spent in Melbourne (probably about as much as I enjoyed collapsing into bed when I made it home 😂😴).
 
 ![null](/img/blog/10abc9db15db44c44001e218ed88cecb499a6937_karaoke.jpg)
@@ -82,10 +83,10 @@ Having spent a fair chunk of her career in accessibility, Julie went through som
 
 It was reassuring to hear some of Julie's tips as techniques that I already use (like using em values rather than px for media queries to make it responsive), but there was something to take home for even the most experienced developer. Properties like text-decoration-skip-ink allow underlines to skip low hanging letters and not only add a little design flair, but make it easier for dyslexic susers to read the text (and making sure to keep the underline for links in case the user has enabled a high-contrast mode on their computer).
 
-```
+```css
 a {
-    text-decoration: underline;
-    text-decoration-skip-ink: auto;
+  text-decoration: underline;
+  text-decoration-skip-ink: auto;
 }
 ```
 
@@ -126,6 +127,7 @@ Working with designers, web developers, iOS developers and Android developers ac
 We need to start playing nicely as a team (and with other teams), if we work together and make sure we're on the same page right from the beginning it makes things much easier.
 
 ## [Journeys: What makes a developer, really?](http://ivanamcconnell.com/cssconfau/journeys-ivana-mcconnell.pdf)
+
 ### [Ivana McConnell](https://twitter.com/IvanaMcConnell)
 
 I've started this approach to conferences where I read the talk descriptions right back at the beginning when I get my ticket, but then I don't read them again. By the time I get to the conference I've usually forgotten what the talk was about (unless the title is really memorable or suggestive) and I can go in with an open mind and see what happens. I'd spoken to Ivana a couple of times before her talk and hadn't discussed what she was talking about so I was so happy to be blown away by her presentation.
