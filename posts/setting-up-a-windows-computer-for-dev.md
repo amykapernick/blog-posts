@@ -16,7 +16,7 @@ tags:
   - Windows
   - Dev
   - Freelance
-featuredImage: /img/blog/patrick-amoy-0vc8ujenzm0-unsplash.jpg
+featuredImage: /img/blog/10abc9db15db44c44001e218ed88cecb499a6937_karaoke.jpg
 ---
 In the past, Windows has developed a reputation for being a difficult OS to use as a developer. Things were difficult to install and run, involved complex workarounds and you could forget doing anything involving Ruby. Thankfully in recent years that's improved, even more so with the Windows Subsystem for Linux (WSL) so it's now possible to do pretty much everything you can on a unix system.
 
@@ -58,7 +58,8 @@ Pro tip: make note of the password you set, you will need to use that in future
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
   ```
 * It will print out steps for you to take, make sure you follow all of them for it to work.
-* ![](/img/blog/homebrew_bash.png)
+
+![](/img/blog/homebrew_bash.png)
 
 ## NVM
 
