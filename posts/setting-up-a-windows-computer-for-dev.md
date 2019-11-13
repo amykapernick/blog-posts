@@ -26,56 +26,56 @@ You may not need to use all these programs, I use the following tools on a daily
 
 ### Dev
 
-* WSL
-* Homebrew
-* NVM (Node Version Manager)
-* Yarn
-* Local by Flywheel (WordPress dev only)
-* Firefox
-* Firefox Nightly
-* Edge Beta
-* VS Code
-* Chrome
+- WSL
+- Homebrew
+- NVM (Node Version Manager)
+- Yarn
+- Local by Flywheel (WordPress dev only)
+- Firefox
+- Firefox Nightly
+- Edge Beta
+- VS Code
+- Chrome
 
 ## WSL
 
 The Windows Subsystem for Linux (WSL) gives the ability to run Linux bash on a Windows computer, and gives the ability to do pretty much everything you would normally do.
 
-* Run the following command in Powershell as an Administrator
-  ```
+- Run the following command in Powershell as an Administrator
+  ```bash
     Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
   ```
-* Make sure you restart your computer once that's done
-* Install Ubuntu from the [Microsoft Store](https://www.microsoft.com/en-au/p/ubuntu-1804-lts/9n9tngvndl3q?activetab=pivot:overviewtab). There are a few different versions so install what you like, but I installed the `18.04 LTS` version
-* Open up the Ubuntu app and follow the instructions to set up your new user
+- Make sure you restart your computer once that's done
+- Install Ubuntu from the [Microsoft Store](https://www.microsoft.com/en-au/p/ubuntu-1804-lts/9n9tngvndl3q?activetab=pivot:overviewtab). There are a few different versions so install what you like, but I installed the `18.04 LTS` version
+- Open up the Ubuntu app and follow the instructions to set up your new user
 
 Pro tip: make note of the password you set, you will need to use that in future
 
 ## HomeBrew
 
-* Download and install HomeBrew by running the below command in WSL
-  ```
+- Download and install HomeBrew by running the below command in WSL
+  ```bash
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
   ```
-* It will print out steps for you to take, make sure you follow all of them for it to work.
+- It will print out steps for you to take, make sure you follow all of them for it to work.
 
 ![](/img/blog/homebrew_bash.png)
 
 ## NVM
 
-* Install NVM with Homebrew
-  ```
+- Install NVM with Homebrew
+  ```bash
     brew install nvm
   ```
-* Run the following commands to setup your terminal to use NVM
-  ```
+- Run the following commands to setup your terminal to use NVM
+  ```bash
     mkdir ~/.nvm
     cp $(brew --prefix nvm)/nvm-exec ~/.nvm/
     export NVM_DIR=~/.nvm
     source $(brew --prefix nvm)/nvm.sh
   ```
-* Install the version of node that you want and tell nvm to use that, eg:
-  ```
+- Install the version of node that you want and tell nvm to use that, eg:
+  ```bash
     nvm install 12.6.0
     nvm use 12.6.0
   ```
@@ -86,20 +86,20 @@ You can install yarn either with Homebrew or via `apt-get`, it's a little easier
 
 ### Installing with Homebrew
 
-* Run to install yarn
-  ```
+- Run to install yarn
+  ```bash
     brew install yarn
   ```
 
 ### Installing with `apt-get`
 
-* Run `sudo apt remove cmdtest`
-* Run to install yarn
-  ```
+- Run `sudo apt remove cmdtest`
+- Run to install yarn
+  ```bash
     curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
     echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
     sudo apt-get update && sudo apt-get install --no-install-recommends yarn
   ```
-* Keep an eye on the install and make sure it's not installing `cmdtest`
+- Keep an eye on the install and make sure it's not installing `cmdtest`
 
 If you receive an error when running `yarn install` about no install directory, it's using `cmdtest`, uninstall that and run the yarn install scripts again
