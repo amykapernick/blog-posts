@@ -16,7 +16,8 @@ tags:
   - Windows
   - Dev
   - Freelance
-featuredImage: /img/blog/patrick-amoy-0vc8ujenzm0-unsplash.jpg
+featuredImage: >-
+  /img/blog/2e2caf5740aabb6fe6334d2aef4cab7acd28b408_rawpixel-com-579231-unsplash.jpg
 ---
 In the past, Windows has developed a reputation for being a difficult OS to use as a developer. Things were difficult to install and run, involved complex workarounds and you could forget doing anything involving Ruby. Thankfully in recent years that's improved, even more so with the Windows Subsystem for Linux (WSL) so it's now possible to do pretty much everything you can on a unix system.
 
