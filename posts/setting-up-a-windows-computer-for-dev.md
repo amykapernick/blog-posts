@@ -24,8 +24,6 @@ This is easiest when setting up a computer from scratch, but if it's an existing
 
 You may not need to use all these programs, I use the following tools on a daily basis for various types of development:
 
-### Dev
-
 * WSL
 * Homebrew
 * NVM (Node Version Manager)
